@@ -32,4 +32,5 @@ class TestCalculadora(unittest.TestCase):
             soma(10, '10')
 
 
-unittest.main(verbosity=2)
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
